@@ -1,2 +1,49 @@
-# SimuladorVueltaCiclista
-Simulador de Carreras de ciclismo. Primer proyecto realizado con POO en Java; incluye interfaz gráfica Swing y emplea algunos patrones de diseño básicos.
+# Simulador de la Vuelta Ciclista
+
+Este es mi primer proyecto empleando Programación Orientada a Objetos en Java.
+
+Objetivos
+---------
+
+- El objetivo principal es conocer los principios de la POO y avanzar en el aprendizaje de los conceptos específicos de este paradigma (clases, objetos, clases abstractas, herencia, interfaces, polimorfismo, abstracción...
+- Otro objetivo importante es aprender y aplicar algunos patrones de diseño básicos como pueden ser MVC, Singleton, Command, Factory.
+- Como objetivo transversal se encuentra el de afianzar los conceptos de los distintos factores de calidad del software, y llevarlos a la práctica en un proyecto de cierta complejidad.
+
+
+Discusión
+--------
+
+La propuesta de solución para el problema planteado (un simulador de carreras de ciclismo) es posiblemente una
+aceptable implementación de la misma. Esto se debe principalmente a varios factores:
+
+1. La aplicación tiene una aceptable documentación, no sólo la que nos ofrece
+JavaDoc, si no también un código bien autodocumentado. Hecho que favorece la
+facilidad de uso y escalabilidad. Además cada uno de los métodos y clases está
+comentada con comentarios de JavaDoc, por lo que la generación de la documentación
+es prácticamente automática.
+
+2. La aplicación posee un sistema de pruebas automático que, si bien es
+imposible que contenga todas las pruebas posibles, posee las principales pruebas que
+se le pueden hacer a las clases respectivas. Para ello se ha empleado JUnit
+(integrado con Eclipse) que nos permite agrupar dichas pruebas y además nos ahorra
+bastante tiempo gracias a la realización más simple de las pruebas (que nos muestra los
+posibles errores y fallos del código.
+
+3. La organización de la clase Principal y el resto de las clases tiene posibilidad de
+ampliarse, debido a su limitado acoplamiento.
+
+4. La organización e indentación del código hace que sea claro y legible, y esto
+ayuda al fácil mantenimiento del software, además de las ventajas del punto 1.
+Otro punto que también ayuda a la legibilidad y fácil mantenimiento es la
+utilización de variables autoexplicativas, de las cuales no es necesario aportar
+información para saber lo que son y para qué se utilizan.
+
+5. La implementación de la clase RelojSimple es una gran solución, debido a su gran escalabilidad y mantenimiento, por el buen empleo de la herencia entre las clases que la conforman.
+
+6. La aplicación posee una gran usabilidad. Característica imprescindible para que
+el usuario pueda hacer un buen uso de la misma.
+
+7. La aplicación sigue los principios físicos del MRUA en una bicicleta, y se han estudiado diversos elementos que influyen en la misma (radio de las ruedas, marchas, platos, piñones, y la relación de transmisión, cadencia de pedalada, peso de la bicicleta, fuerza aplicada por el ciclista, y factores externos como la aceleración del viento, o inclinación de la carretera...).
+
+-------------------------------------------------------
+Lin M. Dotor © 2013
