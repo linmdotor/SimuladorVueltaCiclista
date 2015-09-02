@@ -2,11 +2,25 @@
 
 Este es mi primer proyecto empleando Programación Orientada a Objetos en Java.
 
+Descripción
+-----------
+Este proyecto es un simulador de carreras de ciclismo.
+
+En un primer momento se permite al usuario elegir el número de participantes de la carrera, y con esto ya se muestra la consola, la interfaz gráfica y los primeros mensajes de ayuda.
+
+Después se permite al usuario la modificación de elementos de la carrera (inclinación de las pendientes, posición de las curvas y velocidad a la que se deben tomar, o velocidad del viento) mediante comandos por consola, o con la lectura "sin interupción" de un fichero externo. Esto establecerá las condiciones de la carrera para todos los participantes. Según se van modificando los distintos parámetros, estos se ven reflejados en un gráfico en el que se puede ver la evolución de la carrera.
+
+Además podemos ver todos los parametros de cada ciclista/bicicleta: fuerza empleada, cadencia de pedalada, relación de transmisión elegida, pendiente sobre la que se encuentra, etc. Estos parámetros, junto a las características de la bicicleta, serán los que determinen la velocidad que se adquiere en cada momento. Estos parámetros pueden ser modificados a su vez mediante comandos por consola o mediante los botones visibles en la interfaz gráfica.
+
+El desarrollo de la carrera y el avance de cada ciclista se puede ver en el gráfico mencionado anteriormente.
+
+¡El ciclista que acabe primero (y no se salga de una curva o se quede sin fuerzas) será el ganador!
+
 Objetivos
 ---------
 
-- El objetivo principal es conocer los principios de la POO y avanzar en el aprendizaje de los conceptos específicos de este paradigma (clases, objetos, clases abstractas, herencia, interfaces, polimorfismo, abstracción...
-- Otro objetivo importante es aprender y aplicar algunos patrones de diseño básicos como pueden ser MVC, Singleton, Command, Factory.
+- El objetivo principal es conocer los principios de la POO y avanzar en el aprendizaje de los conceptos específicos de este paradigma (clases, objetos, clases abstractas, herencia, interfaces, polimorfismo, abstracción... etc).
+- Otro objetivo importante es aprender y aplicar algunos patrones de diseño básicos como pueden ser MVC, Singleton, Command, o Factory.
 - Como objetivo transversal se encuentra el de afianzar los conceptos de los distintos factores de calidad del software, y llevarlos a la práctica en un proyecto de cierta complejidad.
 
 
