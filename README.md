@@ -60,4 +60,4 @@ el usuario pueda hacer un buen uso de la misma.
 7. La aplicación sigue los principios físicos del MRUA en una bicicleta, y se han estudiado diversos elementos que influyen en la misma (radio de las ruedas, marchas, platos, piñones, y la relación de transmisión, cadencia de pedalada, peso de la bicicleta, fuerza aplicada por el ciclista, y factores externos como la aceleración del viento, o inclinación de la carretera...).
 
 -------------------------------------------------------
-Lin M. Dotor © 2013
+Lin M. Dotor & María Picado Álvarez © 2013
