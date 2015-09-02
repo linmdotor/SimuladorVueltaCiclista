@@ -1,0 +1,3 @@
+Registro de eventos: 
+Comienzo de aplicación a las: 04:37:16
+reiniciando aplicación en: 00:00:00, (04:37:18 hora real) 
